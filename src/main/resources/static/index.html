@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        /* CSS styles */
+        .calendar {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .month {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .days {
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .day {
+            width: 14.28%; /* 100% / 7 days */
+            box-sizing: border-box;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        .dropdown {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .current-day {
+        background-color: #eaf2ff; /* Light blue background for current day */
+        font-weight: bold; /* Bold font for current day */
+        border-radius: 50%; /* Rounded border for current day */
+    }
+    </style>
+</head>
+<body>
+<div class="calendar" id="calendar">
+    <div class="dropdown">
+        <select id="month-select"></select>
+        <select id="year-select"></select>
+    </div>
+    <div class="month" id="month-year">August 2024</div>
+    <ul class="days" id="calendar-days">
+        <!-- Calendar days will be inserted here dynamically -->
+    </ul>
+</div>
+<script>
+    // JavaScript to generate and navigate the calendar
+    var currentDate = new Date();
+    var currentYear = currentDate.getFullYear();
+    var currentMonth = currentDate.getMonth() + 1; // JavaScript months are zero-based
+    var currentDay = currentDate.getDate(); // Current day of the month
+
+    function generateCalendar(year, month) {
+        var startDate = new Date(year, month - 1, 1);
+        var endDate = new Date(year, month, 0);
+        var daysInMonth = endDate.getDate();
+        var startDay = startDate.getDay(); // 0 (Sunday) to 6 (Saturday)
+
+        var monthYearElement = document.getElementById('month-year');
+        monthYearElement.textContent = endDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+
+        var calendarDaysElement = document.getElementById('calendar-days');
+        calendarDaysElement.innerHTML = '';
+
+        for (var i = 0; i < startDay; i++) {
+            var blankDay = document.createElement('li');
+            blankDay.className = 'day';
+            calendarDaysElement.appendChild(blankDay);
+        }
+
+        for (var day = 1; day <= daysInMonth; day++) {
+            var calendarDay = document.createElement('li');
+            calendarDay.className = 'day';
+            calendarDay.textContent = day;
+            if (day === currentDay && year === currentYear && month === currentMonth) {
+                calendarDay.classList.add('current-day'); // Add class to highlight current day
+            }
+            calendarDaysElement.appendChild(calendarDay);
+        }
+    }
+
+    // Populate month dropdown
+    var monthSelect = document.getElementById('month-select');
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    months.forEach(function(month, index) {
+        var option = document.createElement('option');
+        option.value = index + 1; // JavaScript months are zero-based, so add 1
+        option.textContent = month;
+        monthSelect.appendChild(option);
+    });
+
+    // Populate year dropdown from 1999 to 2099
+    var yearSelect = document.getElementById('year-select');
+    for (var year = 1999; year <= 2099; year++) {
+        var option = document.createElement('option');
+        option.value = year;
+        option.textContent = year;
+        yearSelect.appendChild(option);
+    }
+
+    // Set default selection to current date
+    monthSelect.selectedIndex = currentDate.getMonth();
+    yearSelect.value = currentYear;
+
+    // Initial calendar display
+    generateCalendar(currentYear, currentMonth);
+
+    // Event listeners for dropdown changes
+    monthSelect.addEventListener('change', function() {
+        currentMonth = parseInt(monthSelect.value);
+        updateCalendar();
+    });
+
+    yearSelect.addEventListener('change', function() {
+        currentYear = parseInt(yearSelect.value);
+        updateCalendar();
+    });
+
+    function updateCalendar() {
+        generateCalendar(currentYear, currentMonth);
+    }
+</script>
+
+</body>
+</html>
