@@ -84,7 +84,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-31" value="Source Layer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="80" width="80" height="30" as="geometry" />
+          <mxGeometry x="50" y="78" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-33" value="Ingestion layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="190" y="80" width="100" height="30" as="geometry" />
@@ -96,7 +96,7 @@
           <mxGeometry x="475" y="78" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-36" value="Data Unify Layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="650" y="80" width="110" height="30" as="geometry" />
+          <mxGeometry x="680" y="78" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-38" value="&lt;div&gt;&lt;span data-canva-clipboard=&quot;ewAiAGEAIgA6ADUALAAiAGgAIgA6ACIAdwB3AHcALgBjAGEAbgB2AGEALgBjAG8AbQAiACwAIgBjACIAOgAiAEQAQQBHAFUAMQBMAFMALQBaADAAYwAiACwAIgBpACIAOgAiADgAUgBhAHQANgBKAHQAbgBIAFMAYQBtAHIARwBEAEIASABFAGcAVwAzAGcAIgAsACIAYgAiADoAMQA3ADMAMAAwADgAOQAyADUAMAAyADIAOAAsACIAagAiADoAWwB7ACIAQQAiADoAewAiAEsAIgA6AHsAfQAsACIARAAiADoAewB9ACwAIgBMACIAOgB7ACIAQQAiADoAWwB7ACIAQQAiADoAewB9ACwAIgBCACIAOgAiAEMAIgB9ACwAewAiAEEAIgA6AHsAfQAsACIAQgAiADoAIgBCACIAfQBdAH0ALAAiAEUAIgA6AHsAfQAsACIARgAiADoAewAiAEEAIgA6ACIASQBkAGUAbgB0AGkAdAB5AC4AcABuAGcAIgAsACIAQgAiADoAMQB9ACwAIgBHACIAOgB7AH0ALAAiAEgAIgA6AHsAIgBCACIAOgAiAG4AbwBuAGUAIgAsACIAQwAiADoAIgAjADAAMAAwADAAMAAwACIALAAiAEQAIgA6ACIAIwBmAGYAZgBmAGYAZgAiAH0ALAAiAEoAIgA6AHsAIgBGACIAOgAiACMAMAAwADAAMAAwADAAIgB9ACwAIgBQACIAOgB7AH0AfQB9AF0ALAAiAEEAPwAiADoAIgBCACIALAAiAEEAIgA6AFsAewAiAEEAIgA6ADMAMgA0ACwAIgBCACIAOgA3ADQANAAuADUAMwA5ADkAOQA5ADkAOQA5ADkAOQA5ADgALAAiAEQAIgA6ADEAOAA0AC4AMQAzADMAMwA4ADMAOQA4ADEAMQA0ADMAMwA3ACwAIgBDACIAOgAxADgANAAuADUAOQA0ADgANwAxADEANQA5ADAANAAwADkANgAsACIAQQA/ACIAOgAiAEkAIgAsACIAYQAiADoAewAiAEEAIgA6AGYAYQBsAHMAZQAsACIAQgAiADoAewAiAEEAIgA6AHsAIgBBACIAOgAiAE0AQQBHAFQAQwBLAFcAZQBRAEUAOAAiACwAIgBCACIAOgAxAH0ALAAiAEIAIgA6AHsAIgBEACIAOgAxADgANAAuADEAMwAzADMAOAAzADkAOAAxADEANAAzADMANwAsACIAQwAiADoAMQA4ADQALgA1ADkANAA4ADcAMQAxADUAOQAwADQAMAA5ADYAfQB9AH0AfQBdACwAIgBCACIAOgAxADkAMgAwACwAIgBDACIAOgAxADAAOAAwAH0A&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="550" width="30" height="20" as="geometry" />
