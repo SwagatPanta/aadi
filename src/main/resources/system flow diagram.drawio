@@ -38,7 +38,7 @@
           <mxGeometry x="80" y="268" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-16" value="RDBMS&lt;div&gt;client/product wise Master Data and Data Warehouse&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="460" y="360" width="160" height="100" as="geometry" />
+          <mxGeometry x="470" y="360" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-17" value="RDBMS(CDW)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="640" y="360" width="130" height="100" as="geometry" />
