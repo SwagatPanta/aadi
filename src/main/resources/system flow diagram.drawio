@@ -16,10 +16,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wHakukRragAsUwI3LYUK-8" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;source and target feature mapping&lt;div&gt;ETL engine&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wHakukRragAsUwI3LYUK-8" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;source and target feature mapping&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ETL engine&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="120" width="90" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="wHakukRragAsUwI3LYUK-9" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;Data Warehouse&lt;/b&gt;&lt;div&gt;client_x/stage_master&lt;/div&gt;&lt;div&gt;client_x/stage04&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wHakukRragAsUwI3LYUK-9" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;HDFS Cluster&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;Data Warehouse&lt;/b&gt;&lt;div&gt;client_x/stage_master&lt;/div&gt;&lt;div&gt;client_x/stage04&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="120" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-10" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;HDFS Cluster&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;product_x/stage0x_master&lt;div&gt;product_x/stage001&lt;div&gt;product_x/stage002&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -96,6 +96,21 @@
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-36" value="Data Unify Layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="685" y="78" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wHakukRragAsUwI3LYUK-38" value="&lt;div&gt;&lt;span data-canva-clipboard=&quot;ewAiAGEAIgA6ADUALAAiAGgAIgA6ACIAdwB3AHcALgBjAGEAbgB2AGEALgBjAG8AbQAiACwAIgBjACIAOgAiAEQAQQBHAFUAMQBMAFMALQBaADAAYwAiACwAIgBpACIAOgAiADgAUgBhAHQANgBKAHQAbgBIAFMAYQBtAHIARwBEAEIASABFAGcAVwAzAGcAIgAsACIAYgAiADoAMQA3ADMAMAAwADgAOQAyADUAMAAyADIAOAAsACIAagAiADoAWwB7ACIAQQAiADoAewAiAEsAIgA6AHsAfQAsACIARAAiADoAewB9ACwAIgBMACIAOgB7ACIAQQAiADoAWwB7ACIAQQAiADoAewB9ACwAIgBCACIAOgAiAEMAIgB9ACwAewAiAEEAIgA6AHsAfQAsACIAQgAiADoAIgBCACIAfQBdAH0ALAAiAEUAIgA6AHsAfQAsACIARgAiADoAewAiAEEAIgA6ACIASQBkAGUAbgB0AGkAdAB5AC4AcABuAGcAIgAsACIAQgAiADoAMQB9ACwAIgBHACIAOgB7AH0ALAAiAEgAIgA6AHsAIgBCACIAOgAiAG4AbwBuAGUAIgAsACIAQwAiADoAIgAjADAAMAAwADAAMAAwACIALAAiAEQAIgA6ACIAIwBmAGYAZgBmAGYAZgAiAH0ALAAiAEoAIgA6AHsAIgBGACIAOgAiACMAMAAwADAAMAAwADAAIgB9ACwAIgBQACIAOgB7AH0AfQB9AF0ALAAiAEEAPwAiADoAIgBCACIALAAiAEEAIgA6AFsAewAiAEEAIgA6ADMAMgA0ACwAIgBCACIAOgA3ADQANAAuADUAMwA5ADkAOQA5ADkAOQA5ADkAOQA5ADgALAAiAEQAIgA6ADEAOAA0AC4AMQAzADMAMwA4ADMAOQA4ADEAMQA0ADMAMwA3ACwAIgBDACIAOgAxADgANAAuADUAOQA0ADgANwAxADEANQA5ADAANAAwADkANgAsACIAQQA/ACIAOgAiAEkAIgAsACIAYQAiADoAewAiAEEAIgA6AGYAYQBsAHMAZQAsACIAQgAiADoAewAiAEEAIgA6AHsAIgBBACIAOgAiAE0AQQBHAFQAQwBLAFcAZQBRAEUAOAAiACwAIgBCACIAOgAxAH0ALAAiAEIAIgA6AHsAIgBEACIAOgAxADgANAAuADEAMwAzADMAOAAzADkAOAAxADEANAAzADMANwAsACIAQwAiADoAMQA4ADQALgA1ADkANAA4ADcAMQAxADUAOQAwADQAMAA5ADYAfQB9AH0AfQBdACwAIgBCACIAOgAxADkAMgAwACwAIgBDACIAOgAxADAAOAAwAH0A&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wHakukRragAsUwI3LYUK-41" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wHakukRragAsUwI3LYUK-42" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="125" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wHakukRragAsUwI3LYUK-43" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="120" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wHakukRragAsUwI3LYUK-44" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="118" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
