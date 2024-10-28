@@ -5,14 +5,14 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wHakukRragAsUwI3LYUK-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="120" width="120" height="210" as="geometry" />
+          <mxGeometry x="70" y="118" width="80" height="210" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="89.5" y="280" as="sourcePoint" />
-            <mxPoint x="89.5" y="240" as="targetPoint" />
+            <mxPoint x="109.5" y="278" as="sourcePoint" />
+            <mxPoint x="109.5" y="238" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="90" y="260" />
+              <mxPoint x="110" y="258" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -20,28 +20,28 @@
           <mxGeometry x="190" y="120" width="90" height="210" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-9" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;HDFS Cluster&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;Data Warehouse&lt;/b&gt;&lt;div&gt;client_x/stage_master&lt;/div&gt;&lt;div&gt;client_x/stage04&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="120" width="160" height="210" as="geometry" />
+          <mxGeometry x="640" y="118" width="130" height="210" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-10" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;HDFS Cluster&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;product_x/stage0x_master&lt;div&gt;product_x/stage001&lt;div&gt;product_x/stage002&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="466" y="118" width="150" height="210" as="geometry" />
+          <mxGeometry x="466" y="118" width="134" height="210" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-11" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;HDFS Cluster/AMZ S3&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;Datalake&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;client_x/&lt;/div&gt;&lt;div&gt;stage00_raw&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="326" y="120" width="100" height="210" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-12" value="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="60" y="130" width="60" height="50" as="geometry" />
+          <mxGeometry x="80" y="128" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-13" value="2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="60" y="190" width="60" height="50" as="geometry" />
+          <mxGeometry x="80" y="188" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-14" value="n" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="60" y="270" width="60" height="50" as="geometry" />
+          <mxGeometry x="80" y="268" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-16" value="RDBMS&lt;div&gt;client/product wise Master Data and Data Warehouse&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="460" y="360" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-17" value="RDBMS(CDW)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="660" y="360" width="160" height="100" as="geometry" />
+          <mxGeometry x="640" y="360" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -61,12 +61,13 @@
             <mxPoint x="320" y="224.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wHakukRragAsUwI3LYUK-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.498;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wHakukRragAsUwI3LYUK-9">
+        <mxCell id="wHakukRragAsUwI3LYUK-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="615" y="224.5" as="sourcePoint" />
-            <mxPoint x="655" y="224.5" as="targetPoint" />
+            <mxPoint x="640" y="225" as="targetPoint" />
             <Array as="points">
               <mxPoint x="615" y="225" />
+              <mxPoint x="600" y="225" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -78,8 +79,8 @@
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="739.5" y="330" as="sourcePoint" />
-            <mxPoint x="739.5" y="360" as="targetPoint" />
+            <mxPoint x="700" y="328" as="sourcePoint" />
+            <mxPoint x="700" y="358" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wHakukRragAsUwI3LYUK-31" value="Source Layer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
